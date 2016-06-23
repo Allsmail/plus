@@ -1,0 +1,1 @@
+将font-awesome.css   放到  css文件夹下面  然后连接css路径

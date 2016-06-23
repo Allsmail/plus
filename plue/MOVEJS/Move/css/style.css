@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 16px/1.8 "Microsoft Yahei",verdana;
+}
+.section{
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.section1{
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.section1 h1{
+	margin-top: 5%;
+	color: #fff;
+	font-weight: normal;
+	font-size: 70px;
+	opacity: 0.8;
+}
+.section1 p{
+	margin: 5% auto;
+	color: #fff;
+	font-size: 18px;
+	opacity: 0.6;
+	margin-top: 800px;
+}
+.section1 a{
+	display: block;
+	margin: 5% auto;
+	color: #ff9000;
+	font-size: 18px;
+	opacity: 0.8;
+}
+
+
+.section2{
+	background: url(../img/er.jpg) no-repeat bottom;
+	background-size: 100% 100%;
+}
+.section2 h1{
+	margin:5px auto;
+	color: #333;
+	font-weight: normal;
+	font-size: 40px;
+}
+.section2 a{
+	display: block;
+	margin: 20px auto;
+	color: #08c;
+	font-size: 18px;
+}
+
+.section3{
+	background: url(../img/1.jpg) no-repeat center 300px;
+	background-size: 50%;
+}
+.section3 h1{
+	margin:20px auto;
+	color: #333;
+	font-weight: normal;
+	font-size: 40px;
+	width:60%;
+	margin-left: -1500px;
+}
+.section3 p{
+	margin:20px auto;
+	color: #333;
+	font-size: 18px;
+	width:60%;
+	margin-left: 1500px;
+}
+.section3 a{
+	display: block;
+	margin: 20px auto;
+	color: #08c;
+	font-size: 18px;
+}
+.section4{
+	background: #fff;
+}
+.section4 h1{
+    margin: 20px auto;
+    color: #333;
+    font-weight: normal;
+    font-size: 40px;
+}
+.section4 .left{
+	width:31%;
+	float: left;
+	margin: 10px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+}
+.section4 .left img{
+	height: 300px;
+	margin-top: 30px;
+}
+.left h4.primary{
+	background-image: url("img/watch1.svg");
+	background-size: 178px 22px;
+	width: 178px;
+	height: 22px;
+}
+.left h4.sport{
+	background-image: url("img/watch3.svg");
+	background-size: 178px 22px;
+	width: 178px;
+	height: 22px;
+}
+.left h4{
+	margin-left:80px;
+}
+.left h4.edition{
+	background-image: url("img/watch4.svg");
+	background-size: 190px 22px;
+	width: 190px;
+	height: 22px;
+}
+.section4 .left p{
+	margin: 10px auto;
+	width: 90%;
+	font-size: 16px;
+}
+.section4 .left a{
+	display: block;
+	margin: 10px auto;
+	color: #08c;
+	width: 90%;
+	font-size: 16px;
+}
